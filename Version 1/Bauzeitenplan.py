@@ -75,7 +75,7 @@ class GUI(Tk):
         pnummer_eingabe.place(x=300, y=840, width=200, height=35)
 
         checkbox = IntVar()
-        button_checkbox = Checkbutton(master=self, text='Baukosten', variable=checkbox, onvalue=1, offvalue=0, command=Erstelle_Baukosten, font=20, bg=hg)
+        button_checkbox = Checkbutton(master=self, text='Baukosten', variable=checkbox, onvalue=1, offvalue=0, font=20, bg=hg)
         button_checkbox.place(x=800, y=490, width=120, height=40)
 
         oeffne_Datei = Button(master=self, text="Datei anzeigen", font=20, fg=hg, bg=vg)
